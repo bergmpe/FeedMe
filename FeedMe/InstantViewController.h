@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InstantViewController : UIViewController
+@interface InstantViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @end

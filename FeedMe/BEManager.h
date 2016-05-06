@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MultipeerConnectivity/MultipeerConnectivity.h"
-#define MC_SERVICE_TYPE @"feedme-discovery"
+#define MC_SERVICE_TYPE @"feedme-discovery"//this string value must never be changed.
 
 
 @interface BEManager : NSObject<MCNearbyServiceAdvertiserDelegate, MCNearbyServiceBrowserDelegate, MCSessionDelegate>
