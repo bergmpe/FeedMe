@@ -19,6 +19,7 @@
 		890437511CDA3767006A4442 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890437501CDA3767006A4442 /* HistoryViewController.m */; };
 		890437541CDA3834006A4442 /* CreateInstantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890437531CDA3834006A4442 /* CreateInstantViewController.m */; };
 		890437571CDA3869006A4442 /* CreateGroupedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890437561CDA3869006A4442 /* CreateGroupedViewController.m */; };
+		8961FCDC1CDCD0E600871188 /* BEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FCDB1CDCD0E600871188 /* BEManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		890437531CDA3834006A4442 /* CreateInstantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateInstantViewController.m; sourceTree = "<group>"; };
 		890437551CDA3869006A4442 /* CreateGroupedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateGroupedViewController.h; sourceTree = "<group>"; };
 		890437561CDA3869006A4442 /* CreateGroupedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateGroupedViewController.m; sourceTree = "<group>"; };
+		8961FCDA1CDCD0E600871188 /* BEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEManager.h; sourceTree = "<group>"; };
+		8961FCDB1CDCD0E600871188 /* BEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 		890437481CDA370F006A4442 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8961FCDA1CDCD0E600871188 /* BEManager.h */,
+				8961FCDB1CDCD0E600871188 /* BEManager.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8961FCDC1CDCD0E600871188 /* BEManager.m in Sources */,
 				890437191CDA323D006A4442 /* AppDelegate.m in Sources */,
 				8904374E1CDA3759006A4442 /* GroupedViewController.m in Sources */,
 				890437571CDA3869006A4442 /* CreateGroupedViewController.m in Sources */,
@@ -538,6 +544,7 @@
 				890437401CDA323E006A4442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		890437411CDA323E006A4442 /* Build configuration list for PBXNativeTarget "FeedMeTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +553,7 @@
 				890437431CDA323E006A4442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		890437441CDA323E006A4442 /* Build configuration list for PBXNativeTarget "FeedMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +562,7 @@
 				890437461CDA323E006A4442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
