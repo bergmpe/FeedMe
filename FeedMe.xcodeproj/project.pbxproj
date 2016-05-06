@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		890437161CDA323D006A4442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 890437151CDA323D006A4442 /* main.m */; };
 		890437191CDA323D006A4442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 890437181CDA323D006A4442 /* AppDelegate.m */; };
-		8904371C1CDA323D006A4442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8904371B1CDA323D006A4442 /* ViewController.m */; };
 		8904371F1CDA323D006A4442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8904371D1CDA323D006A4442 /* Main.storyboard */; };
 		890437211CDA323D006A4442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890437201CDA323D006A4442 /* Assets.xcassets */; };
 		890437241CDA323D006A4442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890437221CDA323D006A4442 /* LaunchScreen.storyboard */; };
 		8904372F1CDA323E006A4442 /* FeedMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8904372E1CDA323E006A4442 /* FeedMeTests.m */; };
 		8904373A1CDA323E006A4442 /* FeedMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 890437391CDA323E006A4442 /* FeedMeUITests.m */; };
+		8904374B1CDA3745006A4442 /* InstantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8904374A1CDA3745006A4442 /* InstantViewController.m */; };
+		8904374E1CDA3759006A4442 /* GroupedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8904374D1CDA3759006A4442 /* GroupedViewController.m */; };
+		890437511CDA3767006A4442 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890437501CDA3767006A4442 /* HistoryViewController.m */; };
+		890437541CDA3834006A4442 /* CreateInstantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890437531CDA3834006A4442 /* CreateInstantViewController.m */; };
+		890437571CDA3869006A4442 /* CreateGroupedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890437561CDA3869006A4442 /* CreateGroupedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		890437151CDA323D006A4442 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		890437171CDA323D006A4442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		890437181CDA323D006A4442 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8904371A1CDA323D006A4442 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8904371B1CDA323D006A4442 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8904371E1CDA323D006A4442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		890437201CDA323D006A4442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		890437231CDA323D006A4442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,16 @@
 		890437351CDA323E006A4442 /* FeedMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		890437391CDA323E006A4442 /* FeedMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedMeUITests.m; sourceTree = "<group>"; };
 		8904373B1CDA323E006A4442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890437491CDA3745006A4442 /* InstantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstantViewController.h; sourceTree = "<group>"; };
+		8904374A1CDA3745006A4442 /* InstantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstantViewController.m; sourceTree = "<group>"; };
+		8904374C1CDA3759006A4442 /* GroupedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupedViewController.h; sourceTree = "<group>"; };
+		8904374D1CDA3759006A4442 /* GroupedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupedViewController.m; sourceTree = "<group>"; };
+		8904374F1CDA3767006A4442 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		890437501CDA3767006A4442 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		890437521CDA3834006A4442 /* CreateInstantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateInstantViewController.h; sourceTree = "<group>"; };
+		890437531CDA3834006A4442 /* CreateInstantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateInstantViewController.m; sourceTree = "<group>"; };
+		890437551CDA3869006A4442 /* CreateGroupedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateGroupedViewController.h; sourceTree = "<group>"; };
+		890437561CDA3869006A4442 /* CreateGroupedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateGroupedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,8 @@
 			children = (
 				890437171CDA323D006A4442 /* AppDelegate.h */,
 				890437181CDA323D006A4442 /* AppDelegate.m */,
-				8904371A1CDA323D006A4442 /* ViewController.h */,
-				8904371B1CDA323D006A4442 /* ViewController.m */,
+				890437481CDA370F006A4442 /* Model */,
+				890437471CDA3703006A4442 /* View */,
 				8904371D1CDA323D006A4442 /* Main.storyboard */,
 				890437201CDA323D006A4442 /* Assets.xcassets */,
 				890437221CDA323D006A4442 /* LaunchScreen.storyboard */,
@@ -138,6 +150,30 @@
 				8904373B1CDA323E006A4442 /* Info.plist */,
 			);
 			path = FeedMeUITests;
+			sourceTree = "<group>";
+		};
+		890437471CDA3703006A4442 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				890437491CDA3745006A4442 /* InstantViewController.h */,
+				8904374A1CDA3745006A4442 /* InstantViewController.m */,
+				8904374C1CDA3759006A4442 /* GroupedViewController.h */,
+				8904374D1CDA3759006A4442 /* GroupedViewController.m */,
+				8904374F1CDA3767006A4442 /* HistoryViewController.h */,
+				890437501CDA3767006A4442 /* HistoryViewController.m */,
+				890437521CDA3834006A4442 /* CreateInstantViewController.h */,
+				890437531CDA3834006A4442 /* CreateInstantViewController.m */,
+				890437551CDA3869006A4442 /* CreateGroupedViewController.h */,
+				890437561CDA3869006A4442 /* CreateGroupedViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		890437481CDA370F006A4442 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8904371C1CDA323D006A4442 /* ViewController.m in Sources */,
 				890437191CDA323D006A4442 /* AppDelegate.m in Sources */,
+				8904374E1CDA3759006A4442 /* GroupedViewController.m in Sources */,
+				890437571CDA3869006A4442 /* CreateGroupedViewController.m in Sources */,
+				890437541CDA3834006A4442 /* CreateInstantViewController.m in Sources */,
+				8904374B1CDA3745006A4442 /* InstantViewController.m in Sources */,
 				890437161CDA323D006A4442 /* main.m in Sources */,
+				890437511CDA3767006A4442 /* HistoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
