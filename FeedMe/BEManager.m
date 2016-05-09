@@ -22,6 +22,16 @@
     return self;
 }
 
+
+-(void)make:(BOOL)visible {
+    if (visible) {
+        [self.advertiser startAdvertisingPeer];
+    }
+    else{
+        [self.advertiser stopAdvertisingPeer];
+    }
+}
+
 #pragma mark - MCNearbyServiceAdvertiserDelegate Methods
 //called when the peer receive a invitation.
 -(void)advertiser:(MCNearbyServiceAdvertiser *)advertiser didReceiveInvitationFromPeer:(MCPeerID *)peerID withContext:(NSData *)context invitationHandler:(void (^)(BOOL, MCSession * _Nonnull))invitationHandler{
